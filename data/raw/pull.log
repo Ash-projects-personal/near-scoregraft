@@ -1,0 +1,221 @@
+pull: 90 date(s) remaining, 100 txns each, 120s pacing
+  error URLError(TimeoutError('timed out')); sleeping 120s
+  error URLError(TimeoutError('timed out')); sleeping 240s
+  error URLError(TimeoutError('timed out')); sleeping 480s
+FAILED 2026-08-09: URLError(TimeoutError('timed out')) -- state saved, resume later
+pull: 90 date(s) remaining, 100 txns each, 120s pacing
+2026-08-09: listed=100 transfer=2 (running transfer share 0.020)
+  pacing sleep 120s
+2026-08-10: listed=100 transfer=2 (running transfer share 0.020)
+  pacing sleep 120s
+2026-08-11: listed=100 transfer=3 (running transfer share 0.023)
+  pacing sleep 120s
+2026-08-12: listed=100 transfer=2 (running transfer share 0.022)
+  pacing sleep 120s
+2026-08-13: listed=100 transfer=4 (running transfer share 0.026)
+  pacing sleep 120s
+2026-08-14: listed=100 transfer=6 (running transfer share 0.032)
+  pacing sleep 120s
+2026-08-15: listed=100 transfer=0 (running transfer share 0.027)
+  pacing sleep 120s
+2026-08-16: listed=100 transfer=2 (running transfer share 0.026)
+  pacing sleep 120s
+2026-08-17: listed=100 transfer=5 (running transfer share 0.029)
+  pacing sleep 120s
+2026-08-18: listed=100 transfer=2 (running transfer share 0.028)
+  pacing sleep 120s
+2026-08-19: listed=100 transfer=3 (running transfer share 0.028)
+  pacing sleep 120s
+2026-08-20: listed=100 transfer=6 (running transfer share 0.031)
+  pacing sleep 120s
+2026-08-21: listed=100 transfer=3 (running transfer share 0.031)
+  pacing sleep 120s
+2026-08-22: listed=100 transfer=10 (running transfer share 0.036)
+  pacing sleep 120s
+2026-08-23: listed=100 transfer=5 (running transfer share 0.037)
+  pacing sleep 120s
+  error URLError(TimeoutError('timed out')); sleeping 120s
+  error URLError(TimeoutError('timed out')); sleeping 240s
+  error URLError(TimeoutError('timed out')); sleeping 480s
+FAILED 2026-08-24: URLError(TimeoutError('timed out')) -- state saved, resume later
+pull: 75 date(s) remaining, 100 txns each, 120s pacing
+2026-08-24: listed=100 transfer=2 (running transfer share 0.020)
+  pacing sleep 120s
+2026-08-25: listed=100 transfer=3 (running transfer share 0.025)
+  pacing sleep 120s
+2026-08-26: listed=100 transfer=1 (running transfer share 0.020)
+  pacing sleep 120s
+2026-08-27: listed=100 transfer=2 (running transfer share 0.020)
+  pacing sleep 120s
+2026-08-28: listed=100 transfer=1 (running transfer share 0.018)
+  pacing sleep 120s
+2026-08-29: listed=100 transfer=3 (running transfer share 0.020)
+  pacing sleep 120s
+2026-08-30: listed=100 transfer=0 (running transfer share 0.017)
+  pacing sleep 120s
+2026-08-31: listed=100 transfer=3 (running transfer share 0.019)
+  pacing sleep 120s
+2026-09-01: listed=100 transfer=5 (running transfer share 0.022)
+  pacing sleep 120s
+2026-09-02: listed=100 transfer=3 (running transfer share 0.023)
+  pacing sleep 120s
+2026-09-03: listed=100 transfer=3 (running transfer share 0.024)
+  pacing sleep 120s
+2026-09-04: listed=100 transfer=3 (running transfer share 0.024)
+  pacing sleep 120s
+2026-09-05: listed=100 transfer=4 (running transfer share 0.025)
+  pacing sleep 120s
+2026-09-06: listed=100 transfer=1 (running transfer share 0.024)
+  pacing sleep 120s
+  error RemoteDisconnected('Remote end closed connection without response') (attempt 1/10); sleeping 120s
+pull: 61 date(s) remaining, 100 txns each, 120s pacing
+2026-09-07: listed=100 transfer=2 (running transfer share 0.020)
+  pacing sleep 120s
+2026-09-08: listed=100 transfer=4 (running transfer share 0.030)
+  pacing sleep 120s
+2026-09-09: listed=100 transfer=3 (running transfer share 0.030)
+  pacing sleep 120s
+2026-09-10: listed=100 transfer=2 (running transfer share 0.028)
+  pacing sleep 120s
+2026-09-11: listed=100 transfer=1 (running transfer share 0.024)
+  pacing sleep 120s
+2026-09-12: listed=100 transfer=5 (running transfer share 0.028)
+  pacing sleep 120s
+2026-09-13: listed=100 transfer=3 (running transfer share 0.029)
+  pacing sleep 120s
+2026-09-14: listed=100 transfer=3 (running transfer share 0.029)
+  pacing sleep 120s
+2026-09-15: listed=100 transfer=3 (running transfer share 0.029)
+  pacing sleep 120s
+2026-09-16: listed=100 transfer=2 (running transfer share 0.028)
+  pacing sleep 120s
+2026-09-17: listed=100 transfer=2 (running transfer share 0.027)
+  pacing sleep 120s
+2026-09-18: listed=100 transfer=4 (running transfer share 0.028)
+  pacing sleep 120s
+2026-09-19: listed=100 transfer=3 (running transfer share 0.028)
+  pacing sleep 120s
+2026-09-20: listed=100 transfer=6 (running transfer share 0.031)
+  pacing sleep 120s
+2026-09-21: listed=100 transfer=5 (running transfer share 0.032)
+  pacing sleep 120s
+  error URLError(TimeoutError('timed out')) (attempt 1/10); sleeping 120s
+  error URLError(RemoteDisconnected('Remote end closed connection without response')) (attempt 2/10); sleeping 240s
+pull: 46 date(s) remaining, 100 txns each, 120s pacing
+2026-09-22: listed=100 transfer=0 (running transfer share 0.000)
+  pacing sleep 120s
+2026-09-23: listed=100 transfer=6 (running transfer share 0.030)
+  pacing sleep 120s
+2026-09-24: listed=100 transfer=7 (running transfer share 0.043)
+  pacing sleep 120s
+2026-09-25: listed=100 transfer=2 (running transfer share 0.037)
+  pacing sleep 120s
+2026-09-26: listed=100 transfer=4 (running transfer share 0.038)
+  pacing sleep 120s
+2026-09-27: listed=100 transfer=7 (running transfer share 0.043)
+  pacing sleep 120s
+2026-09-28: listed=100 transfer=4 (running transfer share 0.043)
+  pacing sleep 120s
+2026-09-29: listed=100 transfer=5 (running transfer share 0.044)
+  pacing sleep 120s
+2026-09-30: listed=100 transfer=9 (running transfer share 0.049)
+  pacing sleep 120s
+2026-10-01: listed=100 transfer=10 (running transfer share 0.054)
+  pacing sleep 120s
+2026-10-02: listed=100 transfer=3 (running transfer share 0.052)
+  pacing sleep 120s
+2026-10-03: listed=100 transfer=1 (running transfer share 0.048)
+  pacing sleep 120s
+2026-10-04: listed=100 transfer=6 (running transfer share 0.049)
+  pacing sleep 120s
+2026-10-05: listed=100 transfer=5 (running transfer share 0.049)
+  pacing sleep 120s
+2026-10-06: listed=100 transfer=2 (running transfer share 0.047)
+  pacing sleep 120s
+  error URLError(TimeoutError('timed out')) (attempt 1/10); sleeping 120s
+  error URLError(TimeoutError('timed out')) (attempt 2/10); sleeping 240s
+  error URLError(TimeoutError('timed out')) (attempt 3/10); sleeping 480s
+  error URLError(TimeoutError('timed out')) (attempt 4/10); sleeping 600s
+  error URLError(TimeoutError('timed out')) (attempt 5/10); sleeping 600s
+  error URLError(TimeoutError('timed out')) (attempt 6/10); sleeping 600s
+  error URLError(TimeoutError('timed out')) (attempt 7/10); sleeping 600s
+  error URLError(TimeoutError('timed out')) (attempt 8/10); sleeping 600s
+  error URLError(TimeoutError('timed out')) (attempt 9/10); sleeping 600s
+  error URLError(TimeoutError('timed out')) (attempt 10/10); sleeping 600s
+pull: 31 date(s) remaining, 100 txns each, 120s pacing
+2026-10-07: listed=100 transfer=4 (running transfer share 0.040)
+  pacing sleep 120s
+2026-10-08: listed=100 transfer=1 (running transfer share 0.025)
+  pacing sleep 120s
+2026-10-09: listed=100 transfer=6 (running transfer share 0.037)
+  pacing sleep 120s
+2026-10-10: listed=100 transfer=4 (running transfer share 0.037)
+  pacing sleep 120s
+2026-10-11: listed=100 transfer=1 (running transfer share 0.032)
+  pacing sleep 120s
+2026-10-12: listed=100 transfer=7 (running transfer share 0.038)
+  pacing sleep 120s
+2026-10-13: listed=100 transfer=2 (running transfer share 0.036)
+  pacing sleep 120s
+2026-10-14: listed=100 transfer=4 (running transfer share 0.036)
+  pacing sleep 120s
+2026-10-15: listed=100 transfer=0 (running transfer share 0.032)
+  pacing sleep 120s
+2026-10-16: listed=100 transfer=7 (running transfer share 0.036)
+  pacing sleep 120s
+2026-10-17: listed=100 transfer=0 (running transfer share 0.033)
+  pacing sleep 120s
+2026-10-18: listed=100 transfer=4 (running transfer share 0.033)
+  pacing sleep 120s
+2026-10-19: listed=100 transfer=5 (running transfer share 0.035)
+  pacing sleep 120s
+2026-10-20: listed=100 transfer=4 (running transfer share 0.035)
+  pacing sleep 120s
+2026-10-21: listed=100 transfer=2 (running transfer share 0.034)
+  pacing sleep 120s
+  error IncompleteRead(53290 bytes read, 19218 more expected) (attempt 1/10); sleeping 120s
+  error IncompleteRead(55007 bytes read, 17501 more expected) (attempt 2/10); sleeping 240s
+  error IncompleteRead(60408 bytes read, 12100 more expected) (attempt 3/10); sleeping 480s
+  error IncompleteRead(66795 bytes read, 5713 more expected) (attempt 4/10); sleeping 600s
+pull: 16 date(s) remaining, 100 txns each, 120s pacing
+  error IncompleteRead(42425 bytes read, 30083 more expected) (attempt 1/10); sleeping 120s
+  error IncompleteRead(66483 bytes read, 6025 more expected) (attempt 2/10); sleeping 240s
+  error IncompleteRead(56168 bytes read, 16340 more expected) (attempt 3/10); sleeping 480s
+  error IncompleteRead(65979 bytes read, 6529 more expected) (attempt 4/10); sleeping 600s
+  error IncompleteRead(68497 bytes read, 4011 more expected) (attempt 5/10); sleeping 600s
+pull: 16 date(s) remaining, 100 txns each, 120s pacing
+  error IncompleteRead(63471 bytes read, 9037 more expected) (attempt 1/10); sleeping 120s
+  error IncompleteRead(69684 bytes read, 2824 more expected) (attempt 2/10); sleeping 240s
+pull: 16 date(s) remaining, 100 txns each, 120s pacing
+2026-10-22: listed=100 transfer=1 (running transfer share 0.010)
+  pacing sleep 120s
+2026-10-23: listed=100 transfer=2 (running transfer share 0.015)
+  pacing sleep 120s
+2026-10-24: listed=100 transfer=0 (running transfer share 0.010)
+  pacing sleep 120s
+2026-10-25: listed=100 transfer=1 (running transfer share 0.010)
+  pacing sleep 120s
+2026-10-26: listed=100 transfer=3 (running transfer share 0.014)
+  pacing sleep 120s
+2026-10-27: listed=100 transfer=5 (running transfer share 0.020)
+  pacing sleep 120s
+2026-10-28: listed=100 transfer=2 (running transfer share 0.020)
+  pacing sleep 120s
+2026-10-29: listed=100 transfer=5 (running transfer share 0.024)
+  pacing sleep 120s
+2026-10-30: listed=100 transfer=4 (running transfer share 0.026)
+  pacing sleep 120s
+2026-10-31: listed=100 transfer=8 (running transfer share 0.031)
+  pacing sleep 120s
+2026-11-01: listed=100 transfer=2 (running transfer share 0.030)
+  pacing sleep 120s
+2026-11-02: listed=100 transfer=0 (running transfer share 0.028)
+  pacing sleep 120s
+2026-11-03: listed=100 transfer=3 (running transfer share 0.028)
+  pacing sleep 120s
+2026-11-04: listed=100 transfer=2 (running transfer share 0.027)
+  pacing sleep 120s
+2026-11-05: listed=100 transfer=2 (running transfer share 0.027)
+  pacing sleep 120s
+2026-11-06: listed=100 transfer=4 (running transfer share 0.028)
+DONE this run: listed=1600 transfer=44

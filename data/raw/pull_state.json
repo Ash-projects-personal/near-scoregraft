@@ -1,0 +1,640 @@
+{
+  "window": [
+    "2026-08-09",
+    "2026-11-06"
+  ],
+  "per_page": 100,
+  "done_dates": {
+    "2026-08-09": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1786276799430558891",
+      "last_block_ts": "1786276784943127049",
+      "before_ts_used": "1786276800000000000"
+    },
+    "2026-08-10": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1786363199613953623",
+      "last_block_ts": "1786363188256181274",
+      "before_ts_used": "1786363200000000000"
+    },
+    "2026-08-11": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1786449599439590125",
+      "last_block_ts": "1786449578760251320",
+      "before_ts_used": "1786449600000000000"
+    },
+    "2026-08-12": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1786535999722005018",
+      "last_block_ts": "1786535981795094177",
+      "before_ts_used": "1786536000000000000"
+    },
+    "2026-08-13": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1786622399527687614",
+      "last_block_ts": "1786622385837566020",
+      "before_ts_used": "1786622400000000000"
+    },
+    "2026-08-14": {
+      "n_listed": 100,
+      "n_transfer": 6,
+      "first_block_ts": "1786708799708046061",
+      "last_block_ts": "1786708776674719510",
+      "before_ts_used": "1786708800000000000"
+    },
+    "2026-08-15": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1786795199782010819",
+      "last_block_ts": "1786795180726531799",
+      "before_ts_used": "1786795200000000000"
+    },
+    "2026-08-16": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1786881599800304482",
+      "last_block_ts": "1786881578575714565",
+      "before_ts_used": "1786881600000000000"
+    },
+    "2026-08-17": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1786967999726758637",
+      "last_block_ts": "1786967983133698026",
+      "before_ts_used": "1786968000000000000"
+    },
+    "2026-08-18": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1787054398842575956",
+      "last_block_ts": "1787054387243301996",
+      "before_ts_used": "1787054400000000000"
+    },
+    "2026-08-19": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1787140799820395503",
+      "last_block_ts": "1787140782651333487",
+      "before_ts_used": "1787140800000000000"
+    },
+    "2026-08-20": {
+      "n_listed": 100,
+      "n_transfer": 6,
+      "first_block_ts": "1787227199762020555",
+      "last_block_ts": "1787227185081323098",
+      "before_ts_used": "1787227200000000000"
+    },
+    "2026-08-21": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1787313599567556775",
+      "last_block_ts": "1787313582024329001",
+      "before_ts_used": "1787313600000000000"
+    },
+    "2026-08-22": {
+      "n_listed": 100,
+      "n_transfer": 10,
+      "first_block_ts": "1787399999397849870",
+      "last_block_ts": "1787399981888657331",
+      "before_ts_used": "1787400000000000000"
+    },
+    "2026-08-23": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1787486399551316118",
+      "last_block_ts": "1787486381811666866",
+      "before_ts_used": "1787486400000000000"
+    },
+    "2026-08-24": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1787572799267472570",
+      "last_block_ts": "1787572788339383607",
+      "before_ts_used": "1787572800000000000"
+    },
+    "2026-08-25": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1787659199992196376",
+      "last_block_ts": "1787659184642991578",
+      "before_ts_used": "1787659200000000000"
+    },
+    "2026-08-26": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1787745599506275116",
+      "last_block_ts": "1787745590926058083",
+      "before_ts_used": "1787745600000000000"
+    },
+    "2026-08-27": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1787831999842328092",
+      "last_block_ts": "1787831985731359355",
+      "before_ts_used": "1787832000000000000"
+    },
+    "2026-08-28": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1787918399434884941",
+      "last_block_ts": "1787918380421679005",
+      "before_ts_used": "1787918400000000000"
+    },
+    "2026-08-29": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1788004799599402545",
+      "last_block_ts": "1788004782535363236",
+      "before_ts_used": "1788004800000000000"
+    },
+    "2026-08-30": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1788091199386595070",
+      "last_block_ts": "1788091184956152494",
+      "before_ts_used": "1788091200000000000"
+    },
+    "2026-08-31": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1788177599892052997",
+      "last_block_ts": "1788177582373726067",
+      "before_ts_used": "1788177600000000000"
+    },
+    "2026-09-01": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1788263999716937902",
+      "last_block_ts": "1788263982966380564",
+      "before_ts_used": "1788264000000000000"
+    },
+    "2026-09-02": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1788350399882001994",
+      "last_block_ts": "1788350383575702566",
+      "before_ts_used": "1788350400000000000"
+    },
+    "2026-09-03": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1788436799687253348",
+      "last_block_ts": "1788436789303660316",
+      "before_ts_used": "1788436800000000000"
+    },
+    "2026-09-04": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1788523199451170255",
+      "last_block_ts": "1788523181092513885",
+      "before_ts_used": "1788523200000000000"
+    },
+    "2026-09-05": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1788609599705423348",
+      "last_block_ts": "1788609585052482734",
+      "before_ts_used": "1788609600000000000"
+    },
+    "2026-09-06": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1788695999715327269",
+      "last_block_ts": "1788695983091274534",
+      "before_ts_used": "1788696000000000000"
+    },
+    "2026-09-07": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1788782399691505334",
+      "last_block_ts": "1788782383892956716",
+      "before_ts_used": "1788782400000000000"
+    },
+    "2026-09-08": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1788868799999282046",
+      "last_block_ts": "1788868784842490556",
+      "before_ts_used": "1788868800000000000"
+    },
+    "2026-09-09": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1788955199770345832",
+      "last_block_ts": "1788955188397494892",
+      "before_ts_used": "1788955200000000000"
+    },
+    "2026-09-10": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1789041599906410152",
+      "last_block_ts": "1789041585755372934",
+      "before_ts_used": "1789041600000000000"
+    },
+    "2026-09-11": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1789127999284129584",
+      "last_block_ts": "1789127989667925699",
+      "before_ts_used": "1789128000000000000"
+    },
+    "2026-09-12": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1789214399604282622",
+      "last_block_ts": "1789214382465763693",
+      "before_ts_used": "1789214400000000000"
+    },
+    "2026-09-13": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1789300799644818995",
+      "last_block_ts": "1789300782462795857",
+      "before_ts_used": "1789300800000000000"
+    },
+    "2026-09-14": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1789387199790050758",
+      "last_block_ts": "1789387178868882989",
+      "before_ts_used": "1789387200000000000"
+    },
+    "2026-09-15": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1789473599898967046",
+      "last_block_ts": "1789473586749022608",
+      "before_ts_used": "1789473600000000000"
+    },
+    "2026-09-16": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1789559999522094111",
+      "last_block_ts": "1789559982364654636",
+      "before_ts_used": "1789560000000000000"
+    },
+    "2026-09-17": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1789646399498116691",
+      "last_block_ts": "1789646389115563035",
+      "before_ts_used": "1789646400000000000"
+    },
+    "2026-09-18": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1789732799845995323",
+      "last_block_ts": "1789732786479319175",
+      "before_ts_used": "1789732800000000000"
+    },
+    "2026-09-19": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1789819199088368431",
+      "last_block_ts": "1789819191407173349",
+      "before_ts_used": "1789819200000000000"
+    },
+    "2026-09-20": {
+      "n_listed": 100,
+      "n_transfer": 6,
+      "first_block_ts": "1789905599054589574",
+      "last_block_ts": "1789905578381939613",
+      "before_ts_used": "1789905600000000000"
+    },
+    "2026-09-21": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1789991999831521095",
+      "last_block_ts": "1789991991979764178",
+      "before_ts_used": "1789992000000000000"
+    },
+    "2026-09-22": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1790078399539605171",
+      "last_block_ts": "1790078392454299924",
+      "before_ts_used": "1790078400000000000"
+    },
+    "2026-09-23": {
+      "n_listed": 100,
+      "n_transfer": 6,
+      "first_block_ts": "1790164799456632921",
+      "last_block_ts": "1790164789066340283",
+      "before_ts_used": "1790164800000000000"
+    },
+    "2026-09-24": {
+      "n_listed": 100,
+      "n_transfer": 7,
+      "first_block_ts": "1790251199915225448",
+      "last_block_ts": "1790251175658134886",
+      "before_ts_used": "1790251200000000000"
+    },
+    "2026-09-25": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1790337599744281444",
+      "last_block_ts": "1790337585756010192",
+      "before_ts_used": "1790337600000000000"
+    },
+    "2026-09-26": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1790423999801460534",
+      "last_block_ts": "1790423979064464281",
+      "before_ts_used": "1790424000000000000"
+    },
+    "2026-09-27": {
+      "n_listed": 100,
+      "n_transfer": 7,
+      "first_block_ts": "1790510399972872612",
+      "last_block_ts": "1790510392136310500",
+      "before_ts_used": "1790510400000000000"
+    },
+    "2026-09-28": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1790596799565847569",
+      "last_block_ts": "1790596793283839160",
+      "before_ts_used": "1790596800000000000"
+    },
+    "2026-09-29": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1790683199784948150",
+      "last_block_ts": "1790683191822014666",
+      "before_ts_used": "1790683200000000000"
+    },
+    "2026-09-30": {
+      "n_listed": 100,
+      "n_transfer": 9,
+      "first_block_ts": "1790769599332575622",
+      "last_block_ts": "1790769585739716255",
+      "before_ts_used": "1790769600000000000"
+    },
+    "2026-10-01": {
+      "n_listed": 100,
+      "n_transfer": 10,
+      "first_block_ts": "1790855999907363027",
+      "last_block_ts": "1790855991113459923",
+      "before_ts_used": "1790856000000000000"
+    },
+    "2026-10-02": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1790942399712383251",
+      "last_block_ts": "1790942388874802791",
+      "before_ts_used": "1790942400000000000"
+    },
+    "2026-10-03": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1791028799672005956",
+      "last_block_ts": "1791028784220361312",
+      "before_ts_used": "1791028800000000000"
+    },
+    "2026-10-04": {
+      "n_listed": 100,
+      "n_transfer": 6,
+      "first_block_ts": "1791115199596399836",
+      "last_block_ts": "1791115185724556971",
+      "before_ts_used": "1791115200000000000"
+    },
+    "2026-10-05": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1791201599941915703",
+      "last_block_ts": "1791201584869784846",
+      "before_ts_used": "1791201600000000000"
+    },
+    "2026-10-06": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1791287999707276876",
+      "last_block_ts": "1791287993045531197",
+      "before_ts_used": "1791288000000000000"
+    },
+    "2026-10-07": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1791374399804949807",
+      "last_block_ts": "1791374386975008967",
+      "before_ts_used": "1791374400000000000"
+    },
+    "2026-10-08": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1791460799810034801",
+      "last_block_ts": "1791460786577616498",
+      "before_ts_used": "1791460800000000000"
+    },
+    "2026-10-09": {
+      "n_listed": 100,
+      "n_transfer": 6,
+      "first_block_ts": "1791547199515178089",
+      "last_block_ts": "1791547179791531446",
+      "before_ts_used": "1791547200000000000"
+    },
+    "2026-10-10": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1791633599965182905",
+      "last_block_ts": "1791633579240194832",
+      "before_ts_used": "1791633600000000000"
+    },
+    "2026-10-11": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1791719999689843011",
+      "last_block_ts": "1791719992750692129",
+      "before_ts_used": "1791720000000000000"
+    },
+    "2026-10-12": {
+      "n_listed": 100,
+      "n_transfer": 7,
+      "first_block_ts": "1791806399850157582",
+      "last_block_ts": "1791806385090558197",
+      "before_ts_used": "1791806400000000000"
+    },
+    "2026-10-13": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1791892799548849357",
+      "last_block_ts": "1791892779601841379",
+      "before_ts_used": "1791892800000000000"
+    },
+    "2026-10-14": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1791979199524690576",
+      "last_block_ts": "1791979185080704513",
+      "before_ts_used": "1791979200000000000"
+    },
+    "2026-10-15": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1792065599493908179",
+      "last_block_ts": "1792065592540684975",
+      "before_ts_used": "1792065600000000000"
+    },
+    "2026-10-16": {
+      "n_listed": 100,
+      "n_transfer": 7,
+      "first_block_ts": "1792151999665314453",
+      "last_block_ts": "1792151983093491618",
+      "before_ts_used": "1792152000000000000"
+    },
+    "2026-10-17": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1792238399644509239",
+      "last_block_ts": "1792238393626836969",
+      "before_ts_used": "1792238400000000000"
+    },
+    "2026-10-18": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1792324799870408393",
+      "last_block_ts": "1792324783754410730",
+      "before_ts_used": "1792324800000000000"
+    },
+    "2026-10-19": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1792411199999311847",
+      "last_block_ts": "1792411178069505738",
+      "before_ts_used": "1792411200000000000"
+    },
+    "2026-10-20": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1792497599600915512",
+      "last_block_ts": "1792497580064306448",
+      "before_ts_used": "1792497600000000000"
+    },
+    "2026-10-21": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1792583999377066872",
+      "last_block_ts": "1792583980746889884",
+      "before_ts_used": "1792584000000000000"
+    },
+    "2026-10-22": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1792670399862360243",
+      "last_block_ts": "1792670369806041875",
+      "before_ts_used": "1792670400000000000"
+    },
+    "2026-10-23": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1792756799516651260",
+      "last_block_ts": "1792756790458676630",
+      "before_ts_used": "1792756800000000000"
+    },
+    "2026-10-24": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1792843199977512712",
+      "last_block_ts": "1792843193201546623",
+      "before_ts_used": "1792843200000000000"
+    },
+    "2026-10-25": {
+      "n_listed": 100,
+      "n_transfer": 1,
+      "first_block_ts": "1792929599546165744",
+      "last_block_ts": "1792929586052595179",
+      "before_ts_used": "1792929600000000000"
+    },
+    "2026-10-26": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1793015999542473662",
+      "last_block_ts": "1793015980417971589",
+      "before_ts_used": "1793016000000000000"
+    },
+    "2026-10-27": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1793102399615485897",
+      "last_block_ts": "1793102391488975311",
+      "before_ts_used": "1793102400000000000"
+    },
+    "2026-10-28": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1793188799367179794",
+      "last_block_ts": "1793188769240558849",
+      "before_ts_used": "1793188800000000000"
+    },
+    "2026-10-29": {
+      "n_listed": 100,
+      "n_transfer": 5,
+      "first_block_ts": "1793275199538776147",
+      "last_block_ts": "1793275178819250645",
+      "before_ts_used": "1793275200000000000"
+    },
+    "2026-10-30": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1793361599463678179",
+      "last_block_ts": "1793361581043047697",
+      "before_ts_used": "1793361600000000000"
+    },
+    "2026-10-31": {
+      "n_listed": 100,
+      "n_transfer": 8,
+      "first_block_ts": "1793447999879536579",
+      "last_block_ts": "1793447976461427939",
+      "before_ts_used": "1793448000000000000"
+    },
+    "2026-11-01": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1793534399858288214",
+      "last_block_ts": "1793534374666794760",
+      "before_ts_used": "1793534400000000000"
+    },
+    "2026-11-02": {
+      "n_listed": 100,
+      "n_transfer": 0,
+      "first_block_ts": "1793620799956605159",
+      "last_block_ts": "1793620780534509025",
+      "before_ts_used": "1793620800000000000"
+    },
+    "2026-11-03": {
+      "n_listed": 100,
+      "n_transfer": 3,
+      "first_block_ts": "1793707199354594312",
+      "last_block_ts": "1793707176362240332",
+      "before_ts_used": "1793707200000000000"
+    },
+    "2026-11-04": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1793793599787509554",
+      "last_block_ts": "1793793582818114150",
+      "before_ts_used": "1793793600000000000"
+    },
+    "2026-11-05": {
+      "n_listed": 100,
+      "n_transfer": 2,
+      "first_block_ts": "1793879999896059071",
+      "last_block_ts": "1793879989836718967",
+      "before_ts_used": "1793880000000000000"
+    },
+    "2026-11-06": {
+      "n_listed": 100,
+      "n_transfer": 4,
+      "first_block_ts": "1793966399848370688",
+      "last_block_ts": "1793966373156693175",
+      "before_ts_used": "1793966400000000000"
+    }
+  },
+  "stats": {}
+}

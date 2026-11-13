@@ -1,0 +1,74 @@
+{
+  "accounts": {
+    "2f319e9fd58a0f2aa7a5b0086791999e6c0829336e2832260842acf5b573232b": {
+      "pages": 5,
+      "n_transfer": 238,
+      "n_listed": 496,
+      "n_in_window": 476,
+      "done": true,
+      "reason": "page cap 5 reached (counts corrected day 3: sent/received split)",
+      "before_ts": 1792847326339185458,
+      "n_received_transfer": 238
+    },
+    "20e6bfe4685d99004fc2095d3a0fc6158cd810ce8f801196141e183ed6e19d65": {
+      "pages": 2,
+      "n_transfer": 1,
+      "n_listed": 44,
+      "n_in_window": 44,
+      "before_ts": 1790629937247740244,
+      "done": true,
+      "reason": "page added 0 new rows (no progress); counts corrected day 3 (1 sent, 1 received)",
+      "n_received_transfer": 1
+    },
+    "ccb91e1db61e8d7e1d4ae3e043001140132959a86ee35a548b6563a46284a6ea": {
+      "pages": 5,
+      "n_transfer": 0,
+      "n_received_transfer": 0,
+      "n_listed": 496,
+      "n_in_window": 0,
+      "before_ts": 1794193742457667908,
+      "done": true,
+      "reason": "page cap 5 reached"
+    },
+    "sweat-relayer.near": {
+      "pages": 5,
+      "n_transfer": 0,
+      "n_received_transfer": 0,
+      "n_listed": 489,
+      "n_in_window": 0,
+      "before_ts": 1794342351175208005,
+      "done": true,
+      "reason": "page cap 5 reached"
+    },
+    "37912915448f81224d38af4695d92497a4e881d439655098adf692f28b388916": {
+      "pages": 1,
+      "n_transfer": 42,
+      "n_received_transfer": 39,
+      "n_listed": 81,
+      "n_in_window": 81,
+      "before_ts": null,
+      "done": true,
+      "reason": "reached before window start"
+    },
+    "6518a6ace4aca824c3f4ababf39027d5c8bed13252c202ebb703b890d5b59204": {
+      "pages": 5,
+      "n_transfer": 225,
+      "n_received_transfer": 269,
+      "n_listed": 496,
+      "n_in_window": 494,
+      "before_ts": 1789107602852767983,
+      "done": true,
+      "reason": "page cap 5 reached"
+    },
+    "0f15c0cdc8a05f3da7e73bcc637f7c6776a5c7a4ecee84d101005b87d9ebc113": {
+      "pages": 5,
+      "n_transfer": 226,
+      "n_received_transfer": 238,
+      "n_listed": 496,
+      "n_in_window": 464,
+      "before_ts": 1790903254863096426,
+      "done": true,
+      "reason": "page cap 5 reached"
+    }
+  }
+}
