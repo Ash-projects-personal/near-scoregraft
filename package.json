@@ -1,0 +1,26 @@
+{
+  "name": "near-scoregraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "demo": "npm run build && node dist/demo.js",
+    "test": "npm run build && SCOREGRAFT_LEDGER_PATH=/tmp/scoregraft-test-ledger.jsonl node tests/score.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "near-api-js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.9.3"
+  }
+}

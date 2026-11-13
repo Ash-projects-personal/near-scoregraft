@@ -1,0 +1,114 @@
+{
+  "counts": {
+    "negative_benign": 3,
+    "positive_exploit": 1,
+    "positive_scam": 0
+  },
+  "labels": [
+    {
+      "accountId": "20e6bfe4685d99004fc2095d3a0fc6158cd810ce8f801196141e183ed6e19d65",
+      "caveats": [
+        "The NEAR-account attribution rests on a single-author Medium analysis, NOT on the official NEAR Intents postmortem (which names no NEAR account). The on-chain pattern (repeated mt_batch_transfer_call + clear_completed_withdrawal on v2_1.omni.hot.tg on Oct 1) matches the analysis's described exploit flow precisely, which is strong corroboration, but identity beyond the analysis's claim is not independently proven.",
+        "The attacker returned all funds (Oct 2, 2026); the label is 'exploit actor', not 'unrecovered thief'.",
+        "Measured on-chain in this run (NearBlocks v3, replay + deepened rows): 43 rows in window, 42 FUNCTION_CALLs (23x mt_batch_transfer_call, 8x mt_transfer, 7x clear_completed_withdrawal, 2x deposit, 1x storage_deposit, 1x mt_transfer_call) all to receiver v2_1.omni.hot.tg, plus 1 TRANSFER sent (3 NEAR). Failure rate 1/43 (0.0233). First seen 2026-09-29, last seen 2026-09-29 in the deepened walk; the Medium analysis claims 23 failed deposit txns Sep 29-Oct 1, which this pull does NOT reproduce (only 1 failed row found) \u2014 the deposit-failure count in the analysis is unverified against the rows pulled here, and is not used as a feature."
+      ],
+      "in_window": true,
+      "incident": "NEAR Intents $3.8M unauthorized-withdrawal exploit",
+      "incident_date": "2026-09-30/2026-10-01",
+      "label": "exploit_actor",
+      "provenance": [
+        {
+          "claims": "Names this NEAR account as the attacker account; names EVM attacker address 0x09Fd1f5d9F185067A92493E43AA259ea4AB3ad37; exploit method is repeated mt_batch_transfer_call on v2_1.omni.hot.tg, with clear_completed_withdrawal to obtain withdrawal authorization; 23 failed deposit txns Sep 29-Oct 1, five major withdrawals totaling ~3.865M USDT.",
+          "source": "Medium analysis 'NEAR Intents Exploit Analysis' by andrea8787, published 2026-10-08, updated 2026-10-09",
+          "url": "https://andrea8787.medium.com/near-intents-exploit-analysis-6d2698541d0b"
+        },
+        {
+          "claims": "Corroborates the EVM theft address 0x09fd1f5d9f185067a92493e43aa259ea4ab3ad37 as flagged by ZachXBT; confirms 23 failed deposit transactions Sep 29-Oct 1 and full fund recovery within 36h.",
+          "source": "CryptoTimes 2026-10-17 (NEAR Intents postmortem coverage)",
+          "url": "https://www.cryptotimes.io/2026/10/17/near-intents-traces-3-8m-exploit-to-smart-contract-deposit-bug/"
+        },
+        {
+          "finding": "10/10 most recent txns before Oct 2 are signed by this account, all to receiver v2_1.omni.hot.tg, all status=true, dated 2026-10-01 00:35-06:13 UTC: 4x mt_batch_transfer_call, 3x clear_completed_withdrawal, 3x mt_transfer. This is exactly the method set and contract the Medium analysis describes for the exploit flow. Raw probe saved in the day-3 run log, not in this file.",
+          "method": "GET /v3/accounts/<account>/txns?limit=10&before_ts=1790899200000000000 (2026-10-02T00:00:00Z)",
+          "source": "On-chain verification by Scoregraft, 2026-11-09 (NearBlocks v3, no-auth API)"
+        }
+      ],
+      "recorded": "2026-11-09",
+      "recorded_by": "hackathon-build-queue-runner day 3"
+    },
+    {
+      "accountId": "sweat-relayer.near",
+      "label": "benign",
+      "incident": "None \u2014 long-lived production relayer for the SWEAT movement economy",
+      "incident_date": null,
+      "in_window": true,
+      "recorded": "2026-11-10",
+      "recorded_by": "hackathon-build-queue-runner day 4",
+      "provenance": [
+        {
+          "source": "On-chain verification by Scoregraft, 2026-11-10 (NearBlocks v3, replay sample, 61/90 dates at curation time)",
+          "method": "GET /v3/txns?limit=100&before_ts=<noon each day>, 2026-08-09..2026-10-08",
+          "claims": "2,055 rows signed by this account in the replay sample: 1,933 DELEGATE_ACTION (NEP-366 relayer pattern), 1,875 FUNCTION_CALL, 80 TRANSFER (71 in features after dedupe with deepened rows). Receivers dominated by SWEAT-ecosystem contracts: spin.sweat 567, learn.sweat 203, jars-oracle.sweat 180, sweat_welcome.near 141, fast-auth.near 122. Top methods: ft_transfer 938, claim_total 257, claim 238. First seen 2026-08-09, last seen 2026-10-08; 33 sampled days; failure rate 0.0; 0 NEAR moved in its TRANSFER rows (DELEGATE+TRANSFER, 0 NEAR)."
+        },
+        {
+          "source": "NEAR.org blog 'Sweatcoin Partners with NEAR Foundation to Create a New Movement Economy', 2022-04-12",
+          "url": "https://near.org/blog/sweatcoin-partners-with-near-foundation-to-create-a-new-movement-economy",
+          "claims": "Sweatcoin partnered with the NEAR Foundation to launch SWEAT; 63M+ users at the time. Establishes SWEAT as a real, long-lived NEAR project \u2014 it does NOT name the sweat-relayer.near account itself."
+        },
+        {
+          "source": "PR Newswire, 'Sweat Wallet Adds Five Major Chains Through Chain Abstraction', 2024-09-18",
+          "url": "https://www.prnewswire.co.uk/news-releases/sweat-wallet-adds-five-major-chains-through-chain-abstraction-enables-payment-of-blockchain-fees-with-steps-302249341.html",
+          "claims": "Sweat Economy / Sweat Wallet still active Sep 2024, 16M+ $SWEAT holders, top-5 dApp globally. Corroborates the project is a live production service, not a short-lived shell."
+        }
+      ],
+      "caveats": [
+        "No public document names the sweat-relayer.near account itself; the account-to-project link rests on the account name plus its exclusive SWEAT-contract receiver set on-chain (all top receivers are .sweat contracts). The label is 'benign production relayer', not a claim about who operates it.",
+        "TRANSFER rows move 0 NEAR (DELEGATE+TRANSFER pattern), so its volume-based score components are 0; the label is used for ROC AUC ranking, not as an endorsement of its score."
+      ]
+    },
+    {
+      "accountId": "bridge-mng.near",
+      "label": "benign",
+      "incident": "None \u2014 bridge management account for the Omni Bridge multi-fungible-token contract",
+      "incident_date": null,
+      "in_window": true,
+      "recorded": "2026-11-10",
+      "recorded_by": "hackathon-build-queue-runner day 4",
+      "provenance": [
+        {
+          "source": "On-chain verification by Scoregraft, 2026-11-10 (NearBlocks v3, replay sample, 61/90 dates at curation time)",
+          "method": "GET /v3/txns?limit=100&before_ts=<noon each day>, 2026-08-09..2026-10-08",
+          "claims": "184 rows signed by this account in the replay sample: 180 FUNCTION_CALL, 9 TRANSFER, 7 DELEGATE_ACTION. 154x ft_deposit to omft.near (the Omni Bridge multi-fungible-token contract), 12x ft_transfer_call to wrap.near, 2x to eth.bridge.near. First seen 2026-08-09, last seen 2026-10-08."
+        },
+        {
+          "source": "NEAR Docs, 'How Omni Bridge Works' and 'Omni Bridge Overview' (docs.near.org, updated 2026-10-22)",
+          "url": "https://docs.near.org/chain-abstraction/omnibridge/how-it-works",
+          "claims": "Omni Bridge is NEAR's official multi-chain bridge using Chain Signatures; the Bridge Token Factory contract is the token factory and custodian. The docs do NOT name the bridge-mng.near account itself."
+        }
+      ],
+      "caveats": [
+        "No public document names the bridge-mng.near account itself; the link rests on the account name plus 154/184 rows calling ft_deposit on omft.near. The label is 'benign bridge-management account', not a claim about who operates it."
+      ]
+    },
+    {
+      "accountId": "tx-bench.near",
+      "label": "benign",
+      "incident": "None \u2014 Chain Signatures benchmarking / test account",
+      "incident_date": null,
+      "in_window": true,
+      "recorded": "2026-11-10",
+      "recorded_by": "hackathon-build-queue-runner day 4",
+      "provenance": [
+        {
+          "source": "On-chain verification by Scoregraft, 2026-11-10 (NearBlocks v3, replay sample, 61/90 dates at curation time)",
+          "method": "GET /v3/txns?limit=100&before_ts=<noon each day>, 2026-08-09..2026-09-21",
+          "claims": "20 rows signed by this account in the replay sample: 16 FUNCTION_CALL, 7 TRANSFER. Receivers: v1.signer 9 (Chain Signatures MPC contract), tx-bench-buddy.near 7, wrap.near 3, usdt.tether-token.near 1. Methods: sign 9, near_deposit 3, ft_transfer_call 3. First seen 2026-08-09, last seen 2026-09-21."
+        }
+      ],
+      "caveats": [
+        "WEAKER negative (medium confidence): the account name and the tx-bench-buddy.near / v1.signer pattern indicate a benchmarking or test account for Chain Signatures, not a production service. Benign by construction (test traffic), but it is not a production-service negative like the other two. Kept in the set with this caveat; ROC AUC is reported with and without it in the paper."
+      ]
+    }
+  ],
+  "note": "Labeled positives: 1. Labeled negatives: 3 (sweat-relayer.near, bridge-mng.near, tx-bench.near; the last is a weaker test-account negative, see its caveats). ROC AUC (paper experiment 1) is now computable but indicative only: 1 positive x 3 negatives = 3 pairs. No labels invented; every label carries provenance above. The positive's stale 'does not appear in account_features.json' caveat was corrected day 4: it appears, deepened, with 1 TRANSFER sent and 42 FUNCTION_CALLs."
+}
